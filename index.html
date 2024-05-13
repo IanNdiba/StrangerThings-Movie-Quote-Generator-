@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Use this Section for Trials</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Welcome</h1>
+
+      <div class="input">
+        <input type="number" name="quoteNumb" id="quoteNumb" />
+        <button id="btn">Get Quote</button>
+      </div>
+
+      <!-- Main container for the quotes and author -->
+      <!-- TODO switch flexbox with grid container -->
+      <div id="container">
+        <!-- //this is the div containing the quotes -->
+        <div class="quotesContainer" id="quotesContainer">
+          <p class="quote" id="quote">
+            The quote from stranger things will be displayed here
+          </p>
+        </div>
+
+        <!-- //this is the div containing the author -->
+        <div class="authorContainer" id="authorContainer">
+          <p class="author" id="author">
+            The author of the quote will be displayed here
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
